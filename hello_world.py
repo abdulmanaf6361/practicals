@@ -1,0 +1,7 @@
+print("hello world")
+name = input("what is your name? \n")
+age = input("what is your age? \n")
+print(type(age))
+college = input("What college do you go to? \n")
+goal = input("What is your goal in life? \n")
+print("my name is " + name + " and I am " + age + " years old and I go to " + college + " and my goal in life is " + goal)

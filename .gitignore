@@ -1,0 +1,4 @@
+# fill everything
+# .gitignore
+__pycache__/*
+venv/*

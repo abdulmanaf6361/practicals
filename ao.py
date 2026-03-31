@@ -1,0 +1,15 @@
+a = 1
+b = 10
+print(a+b)
+print("\n")
+print(a-b)
+print("\n")
+print(a*b)
+print("\n")
+print(a//b)
+print("\n")
+print(a/b)
+print("\n")
+print(a%b)
+print("\n")
+print(a**b)
