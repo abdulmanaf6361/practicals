@@ -11,6 +11,8 @@ class Wedding(ABC):
     @abstractmethod
     def _prepare_food(self):
         print("Default cooking...")  # base logic (you shouldn't care)
+        # write logic here
+
 
     def _serve_food(self):
         print("Food served 🍽️ Enjoy your meal!")
@@ -18,9 +20,8 @@ class Wedding(ABC):
 class BiryaniWedding(Wedding):
 
     def _prepare_food(self):
-        print("Cooking delicious Hyderabadi Biryani 🍗🔥")
+        print("Cooking Biryani... 🥘")
 
 guest = BiryaniWedding()
 guest.enjoy_food()
-guest._prepare_food()  # ❌ Not recommended to call internal method directly
-guest._serve_food()   # ❌ Not recommended to call internal method directly
+# wedding = Wedding()
